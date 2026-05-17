@@ -25,14 +25,32 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
+        Особенности документов
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 leading-tight">
+        Каждый документ имеет строгие реквизиты, юридическую силу и определённый порядок согласования и хранения.
       </p>
+
+      <div className="absolute bottom-12 left-6 z-10 flex flex-col gap-3 text-white text-sm max-w-xs" id="features">
+        <div className="flex items-center gap-3">
+          <div className="w-4 h-px bg-white opacity-60" />
+          <span className="opacity-80">Официальность и юридическая сила</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="w-4 h-px bg-white opacity-60" />
+          <span className="opacity-80">Обязательные реквизиты и стандарты</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="w-4 h-px bg-white opacity-60" />
+          <span className="opacity-80">Регламентированный порядок согласования</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="w-4 h-px bg-white opacity-60" />
+          <span className="opacity-80">Архивное хранение и учёт</span>
+        </div>
+      </div>
     </div>
   );
 }
